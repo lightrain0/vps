@@ -1464,24 +1464,24 @@ check_sys
 echo -e "  ShadowsocksR 一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
   ---- Toyo | doub.io/ss-jc42 ----
 
-  ${Green_font_prefix}1.${Font_color_suffix} 安装 ShadowsocksR
-  ${Green_font_prefix}2.${Font_color_suffix} 更新 ShadowsocksR
-  ${Green_font_prefix}3.${Font_color_suffix} 卸载 ShadowsocksR
-  ${Green_font_prefix}4.${Font_color_suffix} 安装 libsodium(chacha20)
+  ${Green_font_prefix}1.${Font_color_suffix} 安装 Install ShadowsocksR
+  ${Green_font_prefix}2.${Font_color_suffix} 更新 Update ShadowsocksR
+  ${Green_font_prefix}3.${Font_color_suffix} 卸载 Uninstall ShadowsocksR
+  ${Green_font_prefix}4.${Font_color_suffix} 安装 Install libsodium(chacha20)
 ————————————
-  ${Green_font_prefix}5.${Font_color_suffix} 查看 账号信息
-  ${Green_font_prefix}6.${Font_color_suffix} 显示 连接信息
-  ${Green_font_prefix}7.${Font_color_suffix} 设置 用户配置
-  ${Green_font_prefix}8.${Font_color_suffix} 手动 修改配置
-  ${Green_font_prefix}9.${Font_color_suffix} 切换 端口模式
+  ${Green_font_prefix}5.${Font_color_suffix} 查看 账号信息 View account
+  ${Green_font_prefix}6.${Font_color_suffix} 显示 连接信息 Connection info
+  ${Green_font_prefix}7.${Font_color_suffix} 设置 用户配置 User configuration
+  ${Green_font_prefix}8.${Font_color_suffix} 手动 修改配置 Modify configuration
+  ${Green_font_prefix}9.${Font_color_suffix} 切换 端口模式 Port mode
 ————————————
- ${Green_font_prefix}10.${Font_color_suffix} 启动 ShadowsocksR
- ${Green_font_prefix}11.${Font_color_suffix} 停止 ShadowsocksR
- ${Green_font_prefix}12.${Font_color_suffix} 重启 ShadowsocksR
- ${Green_font_prefix}13.${Font_color_suffix} 查看 ShadowsocksR 日志
+ ${Green_font_prefix}10.${Font_color_suffix} 启动 Start ShadowsocksR 
+ ${Green_font_prefix}11.${Font_color_suffix} 停止 Stop ShadowsocksR
+ ${Green_font_prefix}12.${Font_color_suffix} 重启 Restart ShadowsocksR
+ ${Green_font_prefix}13.${Font_color_suffix} 查看 View ShadowsocksR log 日志
 ————————————
- ${Green_font_prefix}14.${Font_color_suffix} 其他功能
- ${Green_font_prefix}15.${Font_color_suffix} 升级脚本
+ ${Green_font_prefix}14.${Font_color_suffix} 其他功能 others
+ ${Green_font_prefix}15.${Font_color_suffix} 升级脚本 upgrade
  "
 menu_status
 echo && read -e -p "请输入数字 [1-15]：" num
