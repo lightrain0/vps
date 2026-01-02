@@ -5,7 +5,8 @@ VLESS + WS + TLS 端口：8443
 服务: v2ray.service
 配置文件：见config.json
 ###XRay
-xray /usr/local/etc/xray/config.json
+安装： bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
+xray run -config /usr/local/etc/xray/config.json
 VLESS + XTLS + REALITY 端口：18443
 服务: xray.service
 配置文件：
